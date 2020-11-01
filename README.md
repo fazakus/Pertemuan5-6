@@ -133,7 +133,7 @@ print(w, x, y, z, sep='-----')
     print('Y')
     print('z')
     ```
-    Hasil dari source code Lab 1.1
+    Hasil dari source code End<br>
     ![OutLab1.1](Pic/end.png)
 
     2. Penggunaan Separator<br>
@@ -163,5 +163,5 @@ print(w, x, y, z, sep='-----')
     ```
     print(w, x, y, z, sep='-----')
     ```
-    Hasil dari syntax diatas adalah 
+    Hasil dari syntax diatas adalah<br> 
     ![separator](Pic/separator.png)
