@@ -88,3 +88,80 @@ Hasil dari output Tugas 5
 ![Tugas5](Pic/outputtugas5.png)
 
 ## Pertemuan 6 - Tipe Data, Variable, dan Operator
+
+Pada tugas pertemuan 6 ada 3 Lab, yaitu :
+* Lab 1.1
+* Lab 1.2
+* Lab 2
+
+### Lab 1.1
+Lab 1.1 tentang penggunaan ***End*** dan ***Separator***
+Source code [Lab 1.1](p6_lab1.2.py)
+![Lab1-1](Pic/Lab1-1.png)
+```python
+#penggunaan end
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('z')
+
+#penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+```
+
+1. Penggunaan End<br>
+    Digunakan untuk ganti baris
+    ```python
+    print('A', end='')
+    print('B', end='')
+    print('C', end='')
+    ```
+    Penggunaan **print()** digunakan untuk mencetak output seperti syntax dibawah :
+    ```python
+    print()
+    Syntax dibawah digunakan untuk menampilkan output berupa string
+    ```python
+    print('X')
+    print('Y')
+    print('z')
+    ```
+    Hasil dari source code Lab 1.1
+    ![OutLab1.1](Pic/end.png)
+
+    2. Penggunaan Separator<br>
+    Digunakan sebagai sebagai pemisah antar objek yang di cetak
+
+    * Pendeklarasian beberapa variable berserta nilainya
+    ```python
+    w, x, y, z = 10, 15, 20, 25
+    ```
+    * Menampilkan hasil dari tiap - tiap variable
+    ```python
+    print(w, x, y, z)
+    ```
+    * Menampilkan hasil dari tiap - tiap variable dengan menggunakan pemisah **, (koma)**
+    ```
+    print(w, x, y, z, sep=',')
+    ```
+    * Menampilkan hasil dari tiap - tiap variable tanpa pemisah
+    ```
+    print(w, x, y, z, sep='')
+    ```
+    * Menampilkan hasil dari tiap - tiap variable dengan menggunakan pemisah **: (titik dua)**
+    ```
+    print(w, x, y, z, sep=':')
+    ```
+    * Menampilkan hasil dari tiap - tiap variable dengan menggunakan pemisah **-----**
+    ```
+    print(w, x, y, z, sep='-----')
+    ```
+    Hasil dari syntax diatas adalah 
+    ![separator](Pic/separator.png)
