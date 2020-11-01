@@ -9,8 +9,11 @@ Kelas   : TI.20.B1<br>
 ## Daftar isi
 | No | Deskripsi | Link |
 | ----- | ----- | ----- |
-| 1 | Tugas Pertemuan 5 | [Click Here](#pertemuan-5---tugas-bahasa-pemrograman-python) |
-| 2 | Tugas Pertemuan 6 | [Click Here](#pertemuan-6---lab-1)
+| 1 | Tugas Pertemuan 5 | [Click here](#pertemuan-5---tugas-bahasa-pemrograman-python) |
+| 2 | Tugas Pertemuan 6 | [Click here](#pertemuan-6---tipe-data-variable-dan-operator) |
+| 3 | Tugas Pertemuan 6 Lab 1.1 | [Click here]() |
+| 4 | Tugas Pertemuan 6 Lab 1.2 | [Click here]() |
+| 5 | Tugas Pertemuan 6 Lab 2 | [Click here]() |
 <br>
 
 ## Pertemuan 5 - Tugas Bahasa Pemrograman Python
@@ -169,6 +172,7 @@ print(w, x, y, z, sep='-----')
 ### Lab 1.2
 Lab 1.2 tentang ***String format***
 Memungkinkan untuk menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau  string concatenation<br>
+Source code [Lab 1.2](p6_lab1.py)
 ![Lab1.2](Pic/Lab1-2.png)
 ``` python
 #string format
@@ -198,4 +202,65 @@ print('{0:>3} {1:>16}'.format(10, 10**10))
 ```
 
 1. String Format 1
-Pada format ini akan menampilkan 2 output, yaitu **nomor urut pada sebelah kiri** dan **Operasi Aritmatika pada sebelah kanan**
+Pada format ini akan menampilkan 2 output, yaitu **nomor urut pada sebelah kiri** dan **Operasi Aritmatika pada sebelah kanan**. Dengan ketentuan operasi pangkat dengan angka kiri sebagai pokok (rumus : **[bintang dua])
+Hasil dari source code string format pertama<br> 
+![String format 1](Pic/stringformat1.png)
+
+2. String Format 2
+Pada string format ke 2, tetap menampilkan 2 output tapi dengan ketentuan alignment, padding, dan precision dengan **.format()** dalam kurung kurawal kita dapat menetapkan panjang bidang rata kanan atau kiri, parameter pembulatan dan banyak lagi
+Hasil dari source code string format kedua<br>
+~[String format 2](Pic/stringformat2.png)
+
+### Lab 2
+Pada lab 2 akan membahas Konversi nilai variable<br>
+Source code [Konversi Nilai variable](p6_lab2.py)
+
+![Lab2](Pic/Lab2.png)<br>
+``` python
+a=input("masukkan nilai a:")
+b=input("masukkan nilai b:")
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int()
+print("hasil pejumlahan {1}+{0}".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+
+Pada source code yang telah diberikan ada kesalahan, jadi saat di run program tersebut menjadi error. <br>
+![lab2error](Pic/errorlab2.png)<br>
+Pada source code diatas, berikut adalah errornya :
+>TypeError: %d format: a number is required, not str
+
+Maksud dari error tersebut adalah variable **a** dan **b** terbaca sebagai string, yang seharusnya dibaca sebagai **integer** atau **number**.
+Pada baris ke 5(dinotifikasi ditampilkan juga bahwa pada baris no 5 ada error), yaitu pada pemformatan **.format** adalah integer, sedangkan jika berupa string maka akan ada tanda petik dua("...") pada pemformatan **.format()**
+
+Harusnya inputannya adalah integer seperti dibawah ini :
+``` python
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+```
+
+Untuk memperbaikinya tulis lagi source code tersebut dengan integer
+``` python
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+
+Hasil output dari Lab 2
+![outlab2](Pic/outlab2.png)
+
+
+=========Terima Kasih=========
