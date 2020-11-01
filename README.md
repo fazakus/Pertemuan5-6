@@ -172,7 +172,7 @@ print(w, x, y, z, sep='-----')
 ### Lab 1.2
 Lab 1.2 tentang ***String format***
 Memungkinkan untuk menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau  string concatenation<br>
-Source code [Lab 1.2](p6_lab1.py)
+Source code [Lab 1.2](p6_lab1.py)<br>
 ![Lab1.2](Pic/Lab1-2.png)
 ``` python
 #string format
@@ -259,8 +259,8 @@ print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 ```
 
-Hasil output dari Lab 2
+Hasil output dari Lab 2<br>
 ![outlab2](Pic/outlab2.png)
 
 
-**===================Terima Kasih===================**
+**=============================Terima Kasih=============================**
