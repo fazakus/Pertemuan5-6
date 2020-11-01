@@ -11,9 +11,9 @@ Kelas   : TI.20.B1<br>
 | ----- | ----- | ----- |
 | 1 | Tugas Pertemuan 5 | [Click here](#pertemuan-5---tugas-bahasa-pemrograman-python) |
 | 2 | Tugas Pertemuan 6 | [Click here](#pertemuan-6---tipe-data-variable-dan-operator) |
-| 3 | Tugas Pertemuan 6 Lab 1.1 | [Click here]() |
-| 4 | Tugas Pertemuan 6 Lab 1.2 | [Click here]() |
-| 5 | Tugas Pertemuan 6 Lab 2 | [Click here]() |
+| 3 | Tugas Pertemuan 6 Lab 1.1 | [Click here](#lab-11) |
+| 4 | Tugas Pertemuan 6 Lab 1.2 | [Click here](#lab-12) |
+| 5 | Tugas Pertemuan 6 Lab 2 | [Click here](#lab-2) |
 <br>
 
 ## Pertemuan 5 - Tugas Bahasa Pemrograman Python
@@ -263,4 +263,4 @@ Hasil output dari Lab 2
 ![outlab2](Pic/outlab2.png)
 
 
-=========Terima Kasih=========
+**===================Terima Kasih===================**
